@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="x.css">
+    <script src="script.js"></script>
+    <title>counter</title>
+</head>
+<body>
+    <div class="calculator">
+        <input placeholder="Input a number" class="js-in" onkeydown="handle(event)">
+        <table >
+            <tr>
+                <td><button onclick="takeKeyPad('1')">1</button></td>
+                <td><button onclick="takeKeyPad('2')">2</button></td>
+                <td><button onclick="takeKeyPad('3')">3</button></td>
+                <td><button onclick="takeKeyPad('*')">*</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="takeKeyPad('4')">4</button></td>
+                <td><button onclick="takeKeyPad('5')">5</button></td>
+                <td><button onclick="takeKeyPad('6')">6</button></td>
+                <td><button onclick="takeKeyPad('/')" >/</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="takeKeyPad('7')">7</button></td>
+                <td><button onclick="takeKeyPad('8')">8</button></td>
+                <td><button onclick="takeKeyPad('9')">9</button></td>
+                <td><button onclick="takeKeyPad('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="
+                    getsquare();
+                    "
+                    >x^2</button></td>
+                <td><button onclick="resetContent()">reset</button></td>
+                <td><button onclick="
+                myfunction()
+                
+                "
+                >=</button></td>
+                <td><button onclick="takeKeyPad('+')">+</button></td>
+            </tr>
+
+        </table>
+        <p class="ans">  </p>
+
+    </div>
+    
+</body>
+<!-- <script>
+    function myfunction(){
+        alert(`ro`);
+    }
+
+</script> -->
+</html>
